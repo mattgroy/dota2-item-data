@@ -1,0 +1,226 @@
+{
+  "0": {
+    "0": {
+      "name": "consumables",
+      "items": [
+        "town-portal-scroll",
+        "clarity",
+        "faerie-fire",
+        "smoke-of-deceit",
+        "observer-ward",
+        "sentry-ward",
+        "enchanted-mango",
+        "healing-salve",
+        "tango",
+        "tome-of-knowledge",
+        "dust-of-appearance",
+        "bottle",
+        "aghanims-shard"
+      ]
+    },
+    "1": {
+      "name": "attributes",
+      "items": [
+        "iron-branch",
+        "gauntlets-of-strength",
+        "slippers-of-agility",
+        "mantle-of-intelligence",
+        "circlet",
+        "belt-of-strength",
+        "band-of-elvenskin",
+        "robe-of-the-magi",
+        "crown",
+        "ogre-axe",
+        "blade-of-alacrity",
+        "staff-of-wizardry"
+      ]
+    },
+    "2": {
+      "name": "equipment",
+      "items": [
+        "quelling-blade",
+        "ring-of-protection",
+        "infused-raindrops",
+        "orb-of-venom",
+        "blight-stone",
+        "blades-of-attack",
+        "gloves-of-haste",
+        "chainmail",
+        "quarterstaff",
+        "helm-of-iron-will",
+        "broadsword",
+        "blitz-knuckles",
+        "javelin",
+        "claymore",
+        "mithril-hammer"
+      ]
+    },
+    "3": {
+      "name": "miscellaneous",
+      "items": [
+        "ring-of-regen",
+        "sages-mask",
+        "magic-stick",
+        "fluffy-hat",
+        "wind-lace",
+        "cloak",
+        "boots-of-speed",
+        "gem-of-true-sight",
+        "morbid-mask",
+        "voodoo-mask",
+        "shadow-amulet",
+        "ghost-scepter",
+        "blink-dagger"
+      ]
+    },
+    "4": {
+      "name": "secret-shop",
+      "items": [
+        "ring-of-health",
+        "void-stone",
+        "energy-booster",
+        "vitality-booster",
+        "point-booster",
+        "talisman-of-evasion",
+        "platemail",
+        "hyperstone",
+        "ultimate-orb",
+        "demon-edge",
+        "mystic-staff",
+        "reaver",
+        "eaglesong",
+        "sacred-relic"
+      ]
+    }
+  },
+  "1": {
+    "0": {
+      "name": "accessories",
+      "items": [
+        "magic-wand",
+        "null-talisman",
+        "wraith-band",
+        "bracer",
+        "soul-ring",
+        "orb-of-corrosion",
+        "falcon-blade",
+        "power-treads",
+        "phase-boots",
+        "oblivion-staff",
+        "perseverance",
+        "mask-of-madness",
+        "hand-of-midas",
+        "helm-of-the-dominator",
+        "boots-of-travel",
+        "moon-shard",
+        "helm-of-the-overlord"
+      ]
+    },
+    "1": {
+      "name": "support",
+      "items": [
+        "buckler",
+        "ring-of-basilius",
+        "headdress",
+        "urn-of-shadows",
+        "tranquil-boots",
+        "medallion-of-courage",
+        "arcane-boots",
+        "drum-of-endurance",
+        "mekansm",
+        "holy-locket",
+        "vladmirs-offering",
+        "spirit-vessel",
+        "pipe-of-insight",
+        "guardian-greaves"
+      ]
+    },
+    "2": {
+      "name": "magical",
+      "items": [
+        "veil-of-discord",
+        "glimmer-cape",
+        "force-staff",
+        "aether-lens",
+        "witch-blade",
+        "euls-scepter-of-divinity",
+        "rod-of-atos",
+        "dagon",
+        "orchid-malevolence",
+        "solar-crest",
+        "aghanims-scepter",
+        "refresher-orb",
+        "octarine-core",
+        "scythe-of-vyse",
+        "gleipnir",
+        "wind-waker"
+      ]
+    },
+    "3": {
+      "name": "armor",
+      "items": [
+        "hood-of-defiance",
+        "vanguard",
+        "blade-mail",
+        "aeon-disk",
+        "soul-booster",
+        "eternal-shroud",
+        "crimson-guard",
+        "lotus-orb",
+        "black-king-bar",
+        "hurricane-pike",
+        "manta-style",
+        "linkens-sphere",
+        "shivas-guard",
+        "heart-of-tarrasque",
+        "assault-cuirass",
+        "bloodstone"
+      ]
+    },
+    "4": {
+      "name": "weapons",
+      "items": [
+        "crystalys",
+        "meteor-hammer",
+        "armlet-of-mordiggian",
+        "skull-basher",
+        "shadow-blade",
+        "desolator",
+        "battle-fury",
+        "ethereal-blade",
+        "nullifier",
+        "monkey-king-bar",
+        "butterfly",
+        "radiance",
+        "daedalus",
+        "silver-edge",
+        "divine-rapier",
+        "bloodthorn",
+        "abyssal-blade"
+      ]
+    },
+    "5": {
+      "name": "artifacts",
+      "items": [
+        "dragon-lance",
+        "sange",
+        "yasha",
+        "kaya",
+        "echo-sabre",
+        "maelstrom",
+        "diffusal-blade",
+        "mage-slayer",
+        "heavens-halberd",
+        "kaya-and-sange",
+        "sange-and-yasha",
+        "yasha-and-kaya",
+        "satanic",
+        "eye-of-skadi",
+        "mjollnir",
+        "overwhelming-blink",
+        "swift-blink",
+        "arcane-blink"
+      ]
+    }
+  }
+}

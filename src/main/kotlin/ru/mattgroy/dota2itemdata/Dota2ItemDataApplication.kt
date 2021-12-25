@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class Dota2ItemDataApplication
 
 fun main(args: Array<String>) {
-	runApplication<Dota2ItemDataApplication>(*args)
+    runApplication<Dota2ItemDataApplication>(*args)
 }
