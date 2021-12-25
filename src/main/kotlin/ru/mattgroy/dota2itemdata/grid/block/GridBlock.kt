@@ -25,20 +25,12 @@ class GridBlock(
     val id: Long = 0
 ) {
     fun addItems(items: List<Item?>) {
-//        items?.forEach {
-//            this.items.add(it)
-//            it.gridBlock = this
-//        }
-
-//        for (item in items) {
-//            this.items.add(item)
-//            item.gridBlock = this
-//        }
-
-        items.forEach { it?.let {
-            this.items.add(it)
-            it.gridBlock = this
-        }}
+        items.forEach {
+            it?.let {
+                this.items.add(it)
+                it.gridBlock = this
+            }
+        }
     }
 
     @JsonGetter("gridId")

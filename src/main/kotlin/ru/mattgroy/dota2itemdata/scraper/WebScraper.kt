@@ -60,7 +60,7 @@ class WebScraper(
             val descriptionBlocks = descriptionElement
                 ?.getElementsByClass("description-block")
             if (!descriptionBlocks.isNullOrEmpty())
-                description = descriptionBlocks.map { it.text() }.joinToString("\n")
+                description = descriptionBlocks.joinToString("\n") { it.text() }
 
             var cooldown: Int? = null
             val cooldownString = descriptionElement
@@ -80,14 +80,14 @@ class WebScraper(
             val buildsIntoElements = infoPage
                 .getElementsByClass("item-builds-into").first()
                 ?.getElementsByClass("item")
-            if (!buildsIntoElements.isNullOrEmpty())
+            if (!buildsIntoElements.isNullOrEmpty() && !itemId.startsWith("recipe"))
                 buildsInto = buildsIntoElements.mapNotNull { it.selectFirst("a")?.attr("href")?.split("/")?.last() }
 
             var buildsFrom: List<String>? = null
             val buildsFromElements = infoPage
                 .getElementsByClass("item-builds-from").first()
                 ?.getElementsByClass("item")
-            if (!buildsFromElements.isNullOrEmpty())
+            if (!buildsFromElements.isNullOrEmpty() && !itemId.startsWith("recipe"))
                 buildsFrom = buildsFromElements.mapNotNull { it.selectFirst("a")?.attr("href")?.split("/")?.last() }
 
             itemData =
@@ -102,7 +102,7 @@ class WebScraper(
 
     private fun downloadImage(imageUrl: String?): ByteArray? {
         return if (imageUrl.isNullOrBlank()) null
-        else Jsoup.connect(imageUrl).ignoreContentType(true).execute().bodyAsBytes();
+        else Jsoup.connect(imageUrl).ignoreContentType(true).execute().bodyAsBytes()
     }
 
 }

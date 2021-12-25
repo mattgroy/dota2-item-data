@@ -5,7 +5,6 @@ import ru.mattgroy.dota2itemdata.grid.block.GridBlock
 import javax.persistence.*
 
 @Entity
-@Table(name = "ITEM")
 class Item(
     val itemId: String,
     val name: String?,

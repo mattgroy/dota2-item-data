@@ -25,7 +25,7 @@ class GridController(
     }
 
     @GetMapping("/{gridType}/{gridBlockId}")
-    fun getGridBlockItems(@PathVariable gridType: Int, gridBlockId: Int): List<Item>? {
+    fun getGridBlockItems(@PathVariable gridType: Int, @PathVariable gridBlockId: Int): List<Item>? {
         return gridService.getGridBlockItems(GridType.getByValue(gridType), gridBlockId)
     }
 

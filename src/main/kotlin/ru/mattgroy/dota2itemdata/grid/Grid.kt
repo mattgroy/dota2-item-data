@@ -3,7 +3,6 @@ package ru.mattgroy.dota2itemdata.grid
 import com.fasterxml.jackson.annotation.JsonGetter
 import com.fasterxml.jackson.annotation.JsonIgnore
 import ru.mattgroy.dota2itemdata.grid.block.GridBlock
-import ru.mattgroy.dota2itemdata.item.Item
 import javax.persistence.*
 
 @Entity
